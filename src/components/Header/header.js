@@ -7,7 +7,7 @@ import { Pointer, ShoppingCart, UserCircle } from "lucide-react";
 const Header =()=>{
     return(
         <>
-        <header className="flex justify-between m-[5px] h-[50px]  bg-brown text-white pt-[10px] ">
+        <header className="flex justify-between m-[5px] h-[50px]  bg-[#5f3415] text-white pt-[10px] ">
         <Logo/>
        
         <div className="flex gap-4 ">

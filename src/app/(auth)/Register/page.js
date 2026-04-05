@@ -42,7 +42,8 @@ const Register = () =>
      } 
      return(
      
-     <div className="cardstyle bg-brown min-h-screen flex flex-col items-center justify-center  ">
+     <div className="cardstyle bg-brown  flex flex-col items-center justify-center  ">
+       <img src="/logo.png" className="w-25"/>
       <h2 className="subtitle text-[45px] text-[#C8956C] mb-[4px] pt-[2px]">
         ~ coffee shop ~
       </h2>
@@ -50,7 +51,7 @@ const Register = () =>
         coffee shop place  to Enjoy to Start The big day
       </p>
 
-   <form onSubmit={handlesubmit} className=" cardstyle bg-white border border-[3px] border-[#ab8164] rounded-2xl flex flex-col gap-[5px]  mx-auto p-[40px] shadow-lg  text-white">
+   <form onSubmit={handlesubmit} className=" cardstyle bg-white border mb-15 border-[3px] border-[#ab8164] rounded-2xl flex flex-col gap-[5px]  p-[50px] shadow-lg  text-white">
   <label className="label">Enter Your Name</label>
   <input
     className="input"

@@ -42,7 +42,7 @@ const Login = () => {
 
 return (
     <div className="  cardstyle bg-brown min-h-screen flex flex-col items-center justify-center  mt-[5px]  ">
-      <Logo/>
+     <img src="/logo.png" className="w-25"/>
       <p className=" subtitle text-[45px] text-[#C8956C] mb-[4px] pt-[2px]">
         ~ coffee shop ~
       </p>

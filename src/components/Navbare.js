@@ -11,7 +11,7 @@ export default function Navbar() {
             <Link href="/orders">My Orders</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="/About">About</Link>
           </li>
         </ul>
         </nav>
